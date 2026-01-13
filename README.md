@@ -1,4 +1,6 @@
 # GPU_homework2
+2025年秋季国科大《GPU架构与编程》
+
 本项目是一个针对 GPU 体系结构、CUDA 编程及算子开发领域的垂直领域问答推理服务。
 
 核心基于 `Qwen3-0.6B-GPU-Pro` 模型，采用 **vLLM** 推理引擎进行加速，并配合 FP8 量化与 Prefix Caching 技术，旨在 RTX 5090 平台上实现极致的推理吞吐量与 ROUGE-L 评测高分。
